@@ -10,8 +10,9 @@ export default function AsciiAnimation() {
   useEffect(() => {
     if (!mountRef.current) return;
 
-    const width = mountRef.current.clientWidth;
-    const height = mountRef.current.clientHeight;
+    const mountElement = mountRef.current;
+    const width = mountElement.clientWidth;
+    const height = mountElement.clientHeight;
 
     const scene = new THREE.Scene();
     scene.background = new THREE.Color(0, 0, 0);
@@ -28,7 +29,7 @@ export default function AsciiAnimation() {
     effect.domElement.style.color = 'white';
     effect.domElement.style.backgroundColor = 'transparent';
 
-    mountRef.current.appendChild(effect.domElement);
+    mountElement.appendChild(effect.domElement);
 
     const geometry = new THREE.TorusKnotGeometry(10, 3, 100, 16);
     const material = new THREE.MeshPhongMaterial({ flatShading: true });
@@ -69,8 +70,8 @@ export default function AsciiAnimation() {
     return () => {
       window.removeEventListener('resize', handleResize);
       cancelAnimationFrame(reqId);
-      if (mountRef.current && mountRef.current.contains(effect.domElement)) {
-        mountRef.current.removeChild(effect.domElement);
+      if (mountElement.contains(effect.domElement)) {
+        mountElement.removeChild(effect.domElement);
       }
       geometry.dispose();
       material.dispose();

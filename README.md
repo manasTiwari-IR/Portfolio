@@ -87,7 +87,7 @@ Percentage: **95%**
 
 - **Location:** Greater Noida, Uttar Pradesh, India
 - **Email:** [manastiwari.personal@gmail.com](mailto:manastiwari.personal@gmail.com)
-- **GitHub:** [github.com/ManasTiwair-IR](https://github.com/ManasTiwair-IR)
+- **GitHub:** [github.com/manasTiwari-IR](https://github.com/manasTiwari-IR)
 - **LinkedIn:** [www.linkedin.com/in/manas-tiwari-8b1b26289](https://www.linkedin.com/in/manas-tiwari-8b1b26289)
 
 ---

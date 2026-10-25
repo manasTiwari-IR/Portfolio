@@ -73,8 +73,8 @@ function SocialHoverCard({ name, url, icon: Icon }: { name: string; url: string;
     LeetCode: {
       banner: "bg-gradient-to-r from-orange-500 via-orange-600 to-amber-700",
       bannerImage: "/hover_banner.png",
-      title: "Ansh Singh",
-      handle: "@zenansh",
+      title: "Manas Tiwari",
+      handle: "@ManasTiwariBoss",
       bio: "DSA & Problem Solving profile.",
       verified: false,
       stats: (
@@ -84,7 +84,7 @@ function SocialHoverCard({ name, url, icon: Icon }: { name: string; url: string;
       ),
       meta: (
         <span className="flex items-center gap-1 text-[11px] text-zinc-400 dark:text-zinc-500">
-          <ExternalLink className="size-3" /> leetcode.com/u/zenansh
+          <ExternalLink className="size-3" /> leetcode.com/u/ManasTiwariBoss
         </span>
       )
     },

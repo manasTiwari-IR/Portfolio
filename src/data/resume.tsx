@@ -317,7 +317,7 @@ export const DATA = {
     //     {
     //       title: "GitHub",
     //       icon: <Icons.github className="h-4 w-4" />,
-    //       href: "https://github.com/SinghAnsh07/Safe-Lending",
+    //       href: "https://github.com/manasTiwari-IR/Safe-Lending",
     //     },
     //     {
     //       title: "Certification",
