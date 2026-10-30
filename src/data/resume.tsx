@@ -357,5 +357,12 @@ export const DATA = {
       image: "/certifications/internship-bizeebuy.png",
       link: "/certifications/Internship-bizeebuy.pdf",
     },
+    {
+      title: "HackerRank Orchestrate 2026",
+      issuer: "HackerRank",
+      date: "October 2026",
+      image: "/certifications/HackerRank-orchestrate.png",
+      link: "",
+    }
   ],
 } as const;
